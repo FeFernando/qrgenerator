@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Qr Created</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="qrcode" class="card-body"></div>
+        <button id="downloadQr" style="display: none;" class="btn">Download QR Code</button>
+
+       <div class="inputLink">
+            <input type="text" id="urlQrCode" placeholder="ex: instagram.com/user">
+       </div> 
+        <button id="createQr" class="btn">Generate</button>
+        
+    </div>
+    
+
+    
+</body>
+<script src="qrcode.min.js"></script>
+<script src="popup.js"></script>
+
+</html>
